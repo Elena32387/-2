@@ -19,7 +19,7 @@ public class Main {
         System.out.println("количество сахара "+sugar+ " кг");
         long apple = 987678965549L;
         System.out.println("Всего яблок на складе"+apple);
-        double flour = 2.786F;
+        double flour = 2.786;
         System.out.println("Муки "+flour+ " кг");
         short books = 569;
         System.out.println("Всего книг "+books);
@@ -109,6 +109,17 @@ public class Main {
         System.out.println("Маша теперь получает "+allMaria+ " рублей в месяц. Годовой доход вырос на "+yearMaria +" рублей.");
         System.out.println("Денис теперь получает "+allDenis+ " рублей. Годовой доход вырос на "+yearDenis+ " рублей");
         System.out.println("Кристина теперь получает "+allKris+ " рублей. Годовой доход вырос на "+yearKris+ " рублей.");
+
+        short weightLost = 7;
+        double dietOne = 0.250;
+        double dietTwo = 0.500;
+        double resultOne = weightLost/dietOne;
+        double resultTwo = weightLost/dietTwo;
+        System.out.println("Если спортсмен будет худеть на 250 гр, то ему понадобиться "+resultOne+ " дней");
+        System.out.println("Если спортсмен будет худеть на 500 гр, то ему понадобиться "+resultTwo+ " дней");
+        byte between = 2;
+        double resultBetween = (resultOne+resultTwo)/between;
+        System.out.println(" В среднем спортсмену для похудения, потребуется "+resultBetween+ " дней.");
 
 
 
